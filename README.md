@@ -10,15 +10,15 @@
 
 ## 背景
 主程式MAIN包含兩個函數：NAME, ID，共同構成一個能列印組別、組員名字、與學號，並完成學號加總運算的專案。所有程式均需以ARM Assembly完成。  
-- 程式需符合「Project基本要求」：
-  - 撰寫 3 個Function：NAME, ID, 與MAIN，並分成三個組合語言檔案name.s,id.s與main.s。
-    - Name函數需要印出組別與組員名單。
-    - Id函數功能是個別輸入組別學號，並印出學號與學號總和。
-    - Main函數需要整合前兩個函數的功能，並印出組員學號、姓名與學號總和。
-  - 使用 Load/Store指令中，10種定址模式當中的3 種以上。
-  - 使用 Data Processing 指令中，13 種Operand2 格式的當中1 種以上。
-  - 程式中需包含 3 道以上的非`Branch`指令的Conditional Execution。
-  - 在 name.s 程式中需包含1 道一定要執行的指令：`adcs r0, r1, r2`。
+程式需符合「Project基本要求」：
+- 撰寫 3 個Function：NAME, ID, 與MAIN，並分成三個組合語言檔案name.s,id.s與main.s。
+  - Name函數需要印出組別與組員名單。
+  - Id函數功能是個別輸入組別學號，並印出學號與學號總和。
+  - Main函數需要整合前兩個函數的功能，並印出組員學號、姓名與學號總和。
+- 使用 Load/Store指令中，10種定址模式當中的3 種以上。
+- 使用 Data Processing 指令中，13 種Operand2 格式的當中1 種以上。
+- 程式中需包含 3 道以上的非`Branch`指令的Conditional Execution。
+- 在 name.s 程式中需包含1 道一定要執行的指令：`adcs r0, r1, r2`。
 
 ## 方法
 - name.s  
